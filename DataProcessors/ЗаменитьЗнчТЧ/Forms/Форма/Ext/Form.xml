@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Обк" id="54">
+			<DataPath>Обк</DataPath>
+			<ContextMenu name="ОбкКонтекстноеМеню" id="55"/>
+			<ExtendedTooltip name="ОбкРасширеннаяПодсказка" id="56"/>
+		</InputField>
+		<Pages name="Страницы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="Реквизиты" id="70">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реквизиты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реквизиты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="РеквизитыРасширеннаяПодсказка" id="71"/>
+					<ChildItems>
+						<Table name="РеквизитыОбращения" id="72">
+							<TitleLocation>Top</TitleLocation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.РеквизитыОбращения</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ВНИМАНИЕ: команда "Заменить реквизиты" в подвале данной ТЧ!</v8:content>
+								</v8:item>
+							</Title>
+							<TitleTextColor>style:SpecialTextColor</TitleTextColor>
+							<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РеквизитыОбращенияКонтекстноеМеню" id="73"/>
+							<AutoCommandBar name="РеквизитыОбращенияКоманднаяПанель" id="74"/>
+							<ExtendedTooltip name="РеквизитыОбращенияРасширеннаяПодсказка" id="75"/>
+							<SearchStringAddition name="РеквизитыОбращенияСтрокаПоиска" id="76">
+								<AdditionSource>
+									<Item>РеквизитыОбращения</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РеквизитыОбращенияСтрокаПоискаКонтекстноеМеню" id="77"/>
+								<ExtendedTooltip name="РеквизитыОбращенияСтрокаПоискаРасширеннаяПодсказка" id="78"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РеквизитыОбращенияСостояниеПросмотра" id="79">
+								<AdditionSource>
+									<Item>РеквизитыОбращения</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РеквизитыОбращенияСостояниеПросмотраКонтекстноеМеню" id="80"/>
+								<ExtendedTooltip name="РеквизитыОбращенияСостояниеПросмотраРасширеннаяПодсказка" id="81"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РеквизитыОбращенияУправлениеПоиском" id="82">
+								<AdditionSource>
+									<Item>РеквизитыОбращения</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РеквизитыОбращенияУправлениеПоискомКонтекстноеМеню" id="83"/>
+								<ExtendedTooltip name="РеквизитыОбращенияУправлениеПоискомРасширеннаяПодсказка" id="84"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="РеквизитыОбращенияНомерСтроки" id="85">
+									<DataPath>Объект.РеквизитыОбращения.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеквизитыОбращенияНомерСтрокиКонтекстноеМеню" id="86"/>
+									<ExtendedTooltip name="РеквизитыОбращенияНомерСтрокиРасширеннаяПодсказка" id="87"/>
+								</LabelField>
+								<InputField name="РеквизитыОбращенияИмя" id="88">
+									<DataPath>Объект.РеквизитыОбращения.Имя</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеквизитыОбращенияИмяКонтекстноеМеню" id="89"/>
+									<ExtendedTooltip name="РеквизитыОбращенияИмяРасширеннаяПодсказка" id="90"/>
+								</InputField>
+								<InputField name="РеквизитыОбращенияЗначение" id="91">
+									<DataPath>Объект.РеквизитыОбращения.Значение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеквизитыОбращенияЗначениеКонтекстноеМеню" id="92"/>
+									<ExtendedTooltip name="РеквизитыОбращенияЗначениеРасширеннаяПодсказка" id="93"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<Button name="ЗаменитьРеквизиты" id="94">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗаменитьРеквизиты</CommandName>
+							<ExtendedTooltip name="ЗаменитьРеквизитыРасширеннаяПодсказка" id="95"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаУчетныеДанные" id="27">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Учетные данные</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаУчетныеДанныеРасширеннаяПодсказка" id="28"/>
+					<ChildItems>
+						<Table name="УчетныеДанные" id="29">
+							<Representation>List</Representation>
+							<SkipOnInput>true</SkipOnInput>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.УчетныеДанные</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="УчетныеДанныеКонтекстноеМеню" id="30"/>
+							<AutoCommandBar name="УчетныеДанныеКоманднаяПанель" id="31">
+								<ChildItems>
+									<Button name="УчетныеДанныеЗаполнитьУД" id="59">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаполнитьУД</CommandName>
+										<ExtendedTooltip name="УчетныеДанныеЗаполнитьУДРасширеннаяПодсказка" id="60"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="УчетныеДанныеРасширеннаяПодсказка" id="32"/>
+							<SearchStringAddition name="УчетныеДанныеСтрокаПоиска" id="33">
+								<AdditionSource>
+									<Item>УчетныеДанные</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УчетныеДанныеСтрокаПоискаКонтекстноеМеню" id="34"/>
+								<ExtendedTooltip name="УчетныеДанныеСтрокаПоискаРасширеннаяПодсказка" id="35"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="УчетныеДанныеСостояниеПросмотра" id="36">
+								<AdditionSource>
+									<Item>УчетныеДанные</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УчетныеДанныеСостояниеПросмотраКонтекстноеМеню" id="37"/>
+								<ExtendedTooltip name="УчетныеДанныеСостояниеПросмотраРасширеннаяПодсказка" id="38"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="УчетныеДанныеУправлениеПоиском" id="39">
+								<AdditionSource>
+									<Item>УчетныеДанные</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="УчетныеДанныеУправлениеПоискомКонтекстноеМеню" id="40"/>
+								<ExtendedTooltip name="УчетныеДанныеУправлениеПоискомРасширеннаяПодсказка" id="41"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="УчетныеДанныеНаименование" id="42">
+									<DataPath>Объект.УчетныеДанные.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УчетныеДанныеНаименованиеКонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="УчетныеДанныеНаименованиеРасширеннаяПодсказка" id="44"/>
+								</InputField>
+								<InputField name="УчетныеДанныеИмяВхода" id="45">
+									<DataPath>Объект.УчетныеДанные.ИмяВхода</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УчетныеДанныеИмяВходаКонтекстноеМеню" id="46"/>
+									<ExtendedTooltip name="УчетныеДанныеИмяВходаРасширеннаяПодсказка" id="47"/>
+								</InputField>
+								<InputField name="УчетныеДанныеПароль" id="48">
+									<DataPath>Объект.УчетныеДанные.Пароль</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УчетныеДанныеПарольКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="УчетныеДанныеПарольРасширеннаяПодсказка" id="50"/>
+								</InputField>
+								<InputField name="УчетныеДанныеПодключение" id="51">
+									<DataPath>Объект.УчетныеДанные.Подключение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УчетныеДанныеПодключениеКонтекстноеМеню" id="52"/>
+									<ExtendedTooltip name="УчетныеДанныеПодключениеРасширеннаяПодсказка" id="53"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<UsualGroup name="КомандыУД" id="121">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Команды УД</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Команды УД</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="КомандыУДРасширеннаяПодсказка" id="122"/>
+							<ChildItems>
+								<Button name="Заменить" id="61">
+									<Type>UsualButton</Type>
+									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+									<CommandName>Form.Command.Заменить</CommandName>
+									<ExtendedTooltip name="ЗаменитьРасширеннаяПодсказка" id="62"/>
+								</Button>
+								<Button name="ОчиститьУД" id="123">
+									<Type>UsualButton</Type>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<CommandName>Form.Command.ОчиститьУД</CommandName>
+									<ExtendedTooltip name="ОчиститьУДРасширеннаяПодсказка" id="124"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаУчетныеСистемы" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Учетные системы</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаУчетныеСистемыРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<Table name="УчетныеСистемы" id="5">
+							<Representation>List</Representation>
+							<SkipOnInput>true</SkipOnInput>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.УчетныеСистемы</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="УчетныеСистемыКонтекстноеМеню" id="6"/>
+							<AutoCommandBar name="УчетныеСистемыКоманднаяПанель" id="7">
+								<ChildItems>
+									<Button name="УчетныеСистемызаполнитьУС" id="57">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.заполнитьУС</CommandName>
+										<ExtendedTooltip name="УчетныеСистемызаполнитьУСРасширеннаяПодсказка" id="58"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="УчетныеСистемыРасширеннаяПодсказка" id="8"/>
+							<SearchStringAddition name="УчетныеСистемыСтрокаПоиска" id="9">
+								<AdditionSource>
+									<Item>УчетныеСистемы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УчетныеСистемыСтрокаПоискаКонтекстноеМеню" id="10"/>
+								<ExtendedTooltip name="УчетныеСистемыСтрокаПоискаРасширеннаяПодсказка" id="11"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="УчетныеСистемыСостояниеПросмотра" id="12">
+								<AdditionSource>
+									<Item>УчетныеСистемы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УчетныеСистемыСостояниеПросмотраКонтекстноеМеню" id="13"/>
+								<ExtendedTooltip name="УчетныеСистемыСостояниеПросмотраРасширеннаяПодсказка" id="14"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="УчетныеСистемыУправлениеПоиском" id="15">
+								<AdditionSource>
+									<Item>УчетныеСистемы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="УчетныеСистемыУправлениеПоискомКонтекстноеМеню" id="16"/>
+								<ExtendedTooltip name="УчетныеСистемыУправлениеПоискомРасширеннаяПодсказка" id="17"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="УчетныеСистемыНомерСтроки" id="18">
+									<DataPath>Объект.УчетныеСистемы.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УчетныеСистемыНомерСтрокиКонтекстноеМеню" id="19"/>
+									<ExtendedTooltip name="УчетныеСистемыНомерСтрокиРасширеннаяПодсказка" id="20"/>
+								</LabelField>
+								<InputField name="УчетныеСистемыНаименование" id="21">
+									<DataPath>Объект.УчетныеСистемы.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УчетныеСистемыНаименованиеКонтекстноеМеню" id="22"/>
+									<ExtendedTooltip name="УчетныеСистемыНаименованиеРасширеннаяПодсказка" id="23"/>
+								</InputField>
+								<InputField name="УчетныеСистемыФункцииСотрудника" id="24">
+									<DataPath>Объект.УчетныеСистемы.ФункцииСотрудника</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УчетныеСистемыФункцииСотрудникаКонтекстноеМеню" id="25"/>
+									<ExtendedTooltip name="УчетныеСистемыФункцииСотрудникаРасширеннаяПодсказка" id="26"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<Button name="Заменить1" id="119">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Заменить</CommandName>
+							<ExtendedTooltip name="Заменить1РасширеннаяПодсказка" id="120"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="Отказ" id="63">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отказ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отказ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<ExtendedTooltip name="ОтказРасширеннаяПодсказка" id="64"/>
+					<ChildItems>
+						<Button name="Отклонить" id="68">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Отклонить</CommandName>
+							<TextColor>style:SpecialTextColor</TextColor>
+							<ExtendedTooltip name="ОтклонитьРасширеннаяПодсказка" id="69"/>
+						</Button>
+						<InputField name="РуководительИТКомментарий" id="65">
+							<DataPath>РуководительИТКомментарий</DataPath>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="РуководительИТКомментарийКонтекстноеМеню" id="66"/>
+							<ExtendedTooltip name="РуководительИТКомментарийРасширеннаяПодсказка" id="67"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="Структура" id="96">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Структура</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Структура</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтруктураРасширеннаяПодсказка" id="97"/>
+					<ChildItems>
+						<Button name="ПолучитьСтруктуру" id="117">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ПолучитьСтруктуру</CommandName>
+							<ExtendedTooltip name="ПолучитьСтруктуруРасширеннаяПодсказка" id="118"/>
+						</Button>
+						<Table name="Структура1" id="98">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Структура</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+								<ExcludedCommand>SortListAsc</ExcludedCommand>
+								<ExcludedCommand>SortListDesc</ExcludedCommand>
+							</CommandSet>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="Структура1КонтекстноеМеню" id="99"/>
+							<AutoCommandBar name="Структура1КоманднаяПанель" id="100"/>
+							<ExtendedTooltip name="Структура1РасширеннаяПодсказка" id="101"/>
+							<SearchStringAddition name="Структура1СтрокаПоиска" id="102">
+								<AdditionSource>
+									<Item>Структура1</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="Структура1СтрокаПоискаКонтекстноеМеню" id="103"/>
+								<ExtendedTooltip name="Структура1СтрокаПоискаРасширеннаяПодсказка" id="104"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="Структура1СостояниеПросмотра" id="105">
+								<AdditionSource>
+									<Item>Структура1</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="Структура1СостояниеПросмотраКонтекстноеМеню" id="106"/>
+								<ExtendedTooltip name="Структура1СостояниеПросмотраРасширеннаяПодсказка" id="107"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="Структура1УправлениеПоиском" id="108">
+								<AdditionSource>
+									<Item>Структура1</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="Структура1УправлениеПоискомКонтекстноеМеню" id="109"/>
+								<ExtendedTooltip name="Структура1УправлениеПоискомРасширеннаяПодсказка" id="110"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="Структура1НомерСтроки" id="111">
+									<DataPath>Объект.Структура.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Структура1НомерСтрокиКонтекстноеМеню" id="112"/>
+									<ExtendedTooltip name="Структура1НомерСтрокиРасширеннаяПодсказка" id="113"/>
+								</LabelField>
+								<InputField name="Структура1Наименование" id="114">
+									<DataPath>Объект.Структура.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Структура1НаименованиеКонтекстноеМеню" id="115"/>
+									<ExtendedTooltip name="Структура1НаименованиеРасширеннаяПодсказка" id="116"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЗаменитьЗнчТЧ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Обк" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обк</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:BusinessProcessRef.ПервичныйДокумент</v8:Type>
+				<v8:Type>cfg:TaskRef.Заявка</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РуководительИТКомментарий" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Руководитель ИТКомментарий</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>250</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Заменить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заменить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заменить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Заменить</Action>
+		</Command>
+		<Command name="заполнитьУС" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить УС</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить УС</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>заполнитьУС</Action>
+		</Command>
+		<Command name="ЗаполнитьУД" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить УД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить УД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьУД</Action>
+		</Command>
+		<Command name="Отклонить" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отклонить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отклонить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Отклонить</Action>
+		</Command>
+		<Command name="ЗаменитьРеквизиты" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заменить реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заменить реквизиты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаменитьРеквизиты</Action>
+		</Command>
+		<Command name="ПолучитьСтруктуру" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить структуру</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьСтруктуру</Action>
+		</Command>
+		<Command name="ОчиститьУД" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить УД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить УД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьУД</Action>
+		</Command>
+	</Commands>
+</Form>

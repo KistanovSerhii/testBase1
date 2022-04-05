@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.13">
+	<Item id="18b16479-fb00-430d-83ad-b03372bf08ac">
+		<Name>АгротехническаяСлужба</Name>
+		<Code>000000010</Code>
+		<Description>Агротехническая служба</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cabe9a44-4a37-4f6d-a7bc-5bdb18fd483b">
+		<Name>АУП</Name>
+		<Code>000000023</Code>
+		<Description>Административно-управленческий персонал</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3a739dc6-0e3d-4592-b3ee-58036b616477">
+		<Name>БондарныйЦех</Name>
+		<Code>000000044</Code>
+		<Description>Бондарный цех</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a727d235-7502-4d60-8676-51bb6140b43a">
+		<Name>Бухгалтерия</Name>
+		<Code>000000024</Code>
+		<Description>Бухгалтерия</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="98779957-7a06-4f07-ad18-69e2adad56fb">
+		<Name>ДепартаментБезопасности</Name>
+		<Code>000000048</Code>
+		<Description>Департамент безопасности</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="21e49bf9-85cf-4991-a1f9-f996a3b7e47b">
+		<Name>КонтрольноРевизионныйОтдел</Name>
+		<Code>000000038</Code>
+		<Description>Контрольно-ревизионный отдел</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="174e4692-fa6f-4a87-a220-f6d56f2a1436">
+		<Name>ЛабораторияТехнохимическогоИМикробиологическогоКонтроля</Name>
+		<Code>000000030</Code>
+		<Description>Лаборатория технохимического и микробиологического контроля</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fa65fd97-057c-4557-b05e-048e7de099e6">
+		<Name>ОбщезаводскаяГруппа</Name>
+		<Code>000000045</Code>
+		<Description>Общезаводская группа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7528fc9e-5015-40f1-96a3-2631661fe2a1">
+		<Name>ОПК</Name>
+		<Code>000000042</Code>
+		<Description>Оздоровительно-профилактический комплекс</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="493901ec-9cbb-4071-a05b-13801d7e6b83">
+		<Name>ОтделДелопроизводства</Name>
+		<Code>000000012</Code>
+		<Description>Отдел делопроизводства</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="148c0e1c-d5ca-4f12-bb70-5a38abe1c720">
+		<Name>ОтделИнформационнойБезопасности</Name>
+		<Code>000000047</Code>
+		<Description>Отдел информационной безопасности</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="07397972-5630-4782-937c-594e50c90580">
+		<Name>ОтделИнформационныхТехнологий</Name>
+		<Code>000000036</Code>
+		<Description>Отдел информационных технологий</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0600da8e-8306-42ae-a2c4-56503973354c">
+		<Name>ОтделКонтроляКачестваИСистемМенеджмента</Name>
+		<Code>000000001</Code>
+		<Description>Отдел контроля качества и систем менеджмента</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e708ee13-a245-4c9e-ab98-7ce2b508dcf3">
+		<Name>ОтделМаркетингаИПиара</Name>
+		<Code>000000013</Code>
+		<Description>Отдел маркетинга и пиара</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="620b17f3-ae19-47d8-953a-9cd6a566d5ac">
+		<Name>ОтделНедвижимостиИЗемлепользования</Name>
+		<Code>000000002</Code>
+		<Description>Отдел недвижимости и землепользования</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bad3b8ad-4f2b-42d3-a247-7af8a1e1123b">
+		<Name>ОтделОбеспечения</Name>
+		<Code>000000003</Code>
+		<Description>Отдел обеспечения</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a2fabbd9-b911-4bc9-b0ec-181223c1dec4">
+		<Name>ОтделОхраныИБезопасностиПредприятия</Name>
+		<Code>000000004</Code>
+		<Description>Отдел охраны и безопасности предприятия</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7cd43dc3-228b-4f07-a37e-c002559c1746">
+		<Name>ОтделОхраныИРежима</Name>
+		<Code>000000049</Code>
+		<Description>Отдел охраны и режима</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9ee661c6-0051-46fc-a774-7c44a11e4b19">
+		<Name>ОтделПоУправлениюПерсоналом</Name>
+		<Code>000000011</Code>
+		<Description>Отдел по управлению персоналом</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5aedc7e4-f9fd-4a02-a42a-00020d33b5d6">
+		<Name>ОтделРозничнойТорговли</Name>
+		<Code>000000014</Code>
+		<Description>Отдел розничной торговли</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="97fa5dae-a352-4aa1-b80a-4113cf689f87">
+		<Name>ОтделСбыта</Name>
+		<Code>000000015</Code>
+		<Description>Отдел сбыта</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a24d4485-342a-477d-9015-8444bcb7f316">
+		<Name>ОтделСистемУчета</Name>
+		<Code>000000007</Code>
+		<Description>Отдел систем учета</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="478bb89e-8e27-49fc-8076-c042a495a57c">
+		<Name>ОСНО</Name>
+		<Code>000000046</Code>
+		<Description>Отдел экономической безопасности</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a9628746-9140-4169-ba97-21e60c3e303f">
+		<Name>ОтдельныеСпециалисты</Name>
+		<Code>000000040</Code>
+		<Description>Отдельные специалисты</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="506943fa-eae8-4831-bb4b-537702bffdfe">
+		<Name>ПаросиловойЦех</Name>
+		<Code>000000039</Code>
+		<Description>Паросиловой цех</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e8d6e9e7-75c7-41df-8b44-f08c72807cd9">
+		<Name>ПроизводственноДегустационныйКомплекс</Name>
+		<Code>000000008</Code>
+		<Description>Производственно-дегустационный комплекс</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8217443f-2cc6-4396-b75b-0ea3ac131430">
+		<Name>ПроизводственноДегустационныйУчасток1ПГТМассандра</Name>
+		<Code>000000009</Code>
+		<Description>Производственно-дегустационный участок № 1 (п.г.т. массандра)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0b193ab5-756a-4d37-a804-fcf027601a6b">
+		<Name>ПроизводственноДегустационныйУчасток2</Name>
+		<Code>000000016</Code>
+		<Description>Производственно-дегустационный участок № 2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2f5c0d93-b7e9-49fd-89b2-4f751a140832">
+		<Name>РемонтноМеханическийЦех</Name>
+		<Code>000000035</Code>
+		<Description>Ремонтно-механический цех</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6aaabd4f-b573-4a8f-a6ee-0c09c157d14a">
+		<Name>РемонтноСтроительныйЦех</Name>
+		<Code>000000034</Code>
+		<Description>Ремонтно-строительный цех</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="52013745-68ba-4862-bfe0-449619befead">
+		<Name>СкладГотовойПродукции</Name>
+		<Code>000000005</Code>
+		<Description>Склад готовой продукции</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="22e4c2af-61ea-45e3-bb3d-8c3f99560d5b">
+		<Name>СлужбаОхраныТруда</Name>
+		<Code>000000043</Code>
+		<Description>Служба охраны труда</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5144460c-f4fb-4eaf-939d-affbd45a9143">
+		<Name>ТранспортныйЦех</Name>
+		<Code>000000033</Code>
+		<Description>Транспортный цех</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9602c36c-337c-4e2f-95f0-193d084e52a6">
+		<Name>УправлениеЗакупок</Name>
+		<Code>000000017</Code>
+		<Description>Управление закупок</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="808e8414-7518-4e67-b3d5-994154f7c063">
+		<Name>УправлениеОрганизацииИРазвитияПроизводства</Name>
+		<Code>000000025</Code>
+		<Description>Управление организации и развития производства</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="697a39e2-e1bc-455d-98d1-9845a087a60f">
+		<Name>УправлениеПродаж</Name>
+		<Code>000000028</Code>
+		<Description>Управление продаж</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="191646b8-f233-4447-9320-a73694b10f91">
+		<Name>ФинансовыйОтдел</Name>
+		<Code>000000027</Code>
+		<Description>Финансовый отдел</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="05d5db88-3357-48aa-9dd9-f3f4cfb32458">
+		<Name>ЦехВыдержкиВерхнийПодвал</Name>
+		<Code>000000020</Code>
+		<Description>Цех выдержки "Верхний подвал"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dfc37750-d4cc-4655-973d-86d4e80a2f44">
+		<Name>ЦехВыдержкиНижнийПодвал</Name>
+		<Code>000000018</Code>
+		<Description>Цех выдержки "Нижний подвал"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6b282c3d-be5d-4895-84a3-286fcf52a73f">
+		<Name>ЦехВыдержкиСреднийПодвал</Name>
+		<Code>000000019</Code>
+		<Description>Цех выдержки "Средний подвал"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9631b77c-1c0b-42e6-b251-ce7e9399c2b0">
+		<Name>ЦехВыдержкиПодвалОреанда</Name>
+		<Code>000000032</Code>
+		<Description>Цех выдержки подвал ореанда</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1aa19234-31af-48c1-a48d-d863539bcbda">
+		<Name>ЦехВыпускаГотовойПродукции</Name>
+		<Code>000000029</Code>
+		<Description>Цех выпуска готовой продукции</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a8105402-edbd-425d-b86e-d1095d113940">
+		<Name>ЦехКоллекционнойВыдержкиВина</Name>
+		<Code>000000021</Code>
+		<Description>Цех коллекционной выдержки вина</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="826b85e8-4fbc-479e-93e5-8a48bcbd4c5d">
+		<Name>ЦехРозлива</Name>
+		<Code>000000022</Code>
+		<Description>Цех розлива</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="75ae3dde-efc0-4a25-8879-7c4adf79b870">
+		<Name>ЦехВыдержкиВоронцовскийПодвал</Name>
+		<Code>000000031</Code>
+		<Description>Цеха выдержки "Воронцовский подвал"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4ebda9b5-4fb2-42e4-a26c-1afec8c498a9">
+		<Name>ЦехаВыдержкиПодвалОреанда</Name>
+		<Code>000000041</Code>
+		<Description>Цеха выдержки "Подвал Ореанда"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5b6ab13a-4812-4ae3-a979-2509a1af544a">
+		<Name>ЭкономическаяСлужба</Name>
+		<Code>000000026</Code>
+		<Description>Экономическая служба</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ecb57492-d8b8-4df7-a4d0-7b1e6e52b794">
+		<Name>ЭнергетическийЦех</Name>
+		<Code>000000037</Code>
+		<Description>Энергетический цех</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c15651fe-fc63-4de1-85a1-6726370aa5e9">
+		<Name>ЮридическийОтдел</Name>
+		<Code>000000006</Code>
+		<Description>Юридический отдел</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

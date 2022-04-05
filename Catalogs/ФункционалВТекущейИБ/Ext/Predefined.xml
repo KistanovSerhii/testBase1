@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.13">
+	<Item id="1314bea4-fc6c-417d-81ed-0c3164a9b08c">
+		<Name>Инициатор</Name>
+		<Code>000000001</Code>
+		<Description>Инициатор</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bc8a123d-efd8-4187-9df0-5b621f9b705e">
+		<Name>Исполнитель</Name>
+		<Code>000000004</Code>
+		<Description>Исполнитель</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

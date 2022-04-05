@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HomePageWorkArea xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<WorkingAreaTemplate>TwoColumnsEqualWidth</WorkingAreaTemplate>
+	<LeftColumn>
+		<Item>
+			<Form>BusinessProcess.ПервичныйДокумент.Form.ФормаСписка</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Оператор">true</xr:Value>
+				<xr:Value name="Role.АдминистраторСистемы">false</xr:Value>
+				<xr:Value name="Role.ВидимостьИсполнитель">false</xr:Value>
+			</Visibility>
+		</Item>
+	</LeftColumn>
+	<RightColumn>
+		<Item>
+			<Form>CommonForm.СписокЗадач</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Оператор">false</xr:Value>
+				<xr:Value name="Role.АдминистраторСистемы">false</xr:Value>
+				<xr:Value name="Role.ВидимостьИнициатор">false</xr:Value>
+				<xr:Value name="dfb23d3b-bca0-4ea8-b766-8cefe7e3223b">false</xr:Value>
+				<xr:Value name="0915987d-d92f-40db-8f3c-db59a059241f">false</xr:Value>
+				<xr:Value name="Role.ВидимостьИсполнитель">true</xr:Value>
+				<xr:Value name="8a99669f-b3b7-4bb6-ab29-cedc61302310">false</xr:Value>
+				<xr:Value name="4b0eed64-e8f5-42d4-b1ee-49e39d676611">false</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>Task.Заявка.Form.ФормаСписка</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Оператор">true</xr:Value>
+				<xr:Value name="Role.АдминистраторСистемы">false</xr:Value>
+				<xr:Value name="Role.ВидимостьИнициатор">true</xr:Value>
+				<xr:Value name="Role.ВидимостьИсполнитель">false</xr:Value>
+			</Visibility>
+		</Item>
+	</RightColumn>
+	<MACommandInterfaceDisplays>Top</MACommandInterfaceDisplays>
+</HomePageWorkArea>
