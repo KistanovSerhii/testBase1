@@ -256,6 +256,7 @@
 			<Catalog>ФункционалВТекущейИБ</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>НовыйСправочник1</Catalog>
+			<Catalog>НовыйСправочник2</Catalog>
 			<Catalog>НовыйСправочник3</Catalog>
 			<Enum>ШагЗадачи</Enum>
 			<Report>ЖурналРегистрации</Report>
